@@ -1,4 +1,4 @@
-
+source("getting_data.R")
 if(!exists("NEI")){
   NEI <- readRDS("summarySCC_PM25.rds")
 }
